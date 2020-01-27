@@ -1,0 +1,24 @@
+1) Config
+2) add work to the staging area
+3) perform/ add the work to local repository
+
+Steps:-	Gitconfig then,
+	Drive(E:/ or ...) -> Staging area : git add
+	Staging area -> Local repository : git commit -m "message"
+	Local repository -> Github : Push(->) or Pull(<-)
+
+Steps to perform Configuration:
+================================
+(1) git init(.git)
+(2) git config (user.email " " or user.name " ")
+(3) LR->GR 
+	git remote add origin "Gitgub URL"
+
+(4) Create a file and add to staging area
+	git add -A
+(5) To verify is the file added or not
+	get status (if file is in green colour then it is added or else it is in red color then it is not added)
+(6) Sending to local repository
+	git commit "1st version"
+(7) In Github
+	git push origin master (as it is stored initially in master branch)
